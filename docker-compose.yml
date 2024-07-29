@@ -5,7 +5,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: SpringDataDB
+      POSTGRES_DB: Module16-Database
     ports:
       - "5437:5432"
     volumes:
