@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.spring.demo</groupId>
-    <artifactId>Spring-Data-16module</artifactId>
+    <artifactId>Spring-Data-17module</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Spring-Data-16module</name>
     <description>Spring-Data-16module</description>
@@ -31,6 +31,10 @@
         <org.mapstruct.version>1.5.5.Final</org.mapstruct.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>

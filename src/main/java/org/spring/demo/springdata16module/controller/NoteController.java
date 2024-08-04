@@ -2,7 +2,6 @@ package org.spring.demo.springdata16module.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.spring.demo.springdata16module.service.NoteService;
-import org.spring.demo.springdata16module.model.Note;
 import org.spring.demo.springdata16module.model.dto.NoteRequest;
 import org.spring.demo.springdata16module.model.dto.NoteResponse;
 import org.springframework.data.domain.Page;
